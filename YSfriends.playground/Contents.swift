@@ -5,3 +5,4 @@ import QuartzCore
 
 var str = "Hello, playground"
 
+var str1 = "测试xcode集成git"
