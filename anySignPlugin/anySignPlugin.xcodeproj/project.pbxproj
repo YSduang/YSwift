@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		280D085B1CC72F660034CAC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280D085A1CC72F660034CAC4 /* AppDelegate.swift */; };
+		280D085D1CC72F660034CAC4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280D085C1CC72F660034CAC4 /* ViewController.swift */; };
+		280D08601CC72F660034CAC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 280D085E1CC72F660034CAC4 /* Main.storyboard */; };
+		280D08621CC72F660034CAC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 280D08611CC72F660034CAC4 /* Assets.xcassets */; };
+		280D08651CC72F660034CAC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 280D08631CC72F660034CAC4 /* LaunchScreen.storyboard */; };
+		280D08701CC72F660034CAC4 /* anySignPluginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280D086F1CC72F660034CAC4 /* anySignPluginTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		280D086C1CC72F660034CAC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 280D084F1CC72F660034CAC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 280D08561CC72F660034CAC4;
+			remoteInfo = anySignPlugin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		280D08571CC72F660034CAC4 /* anySignPlugin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = anySignPlugin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		280D085A1CC72F660034CAC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		280D085C1CC72F660034CAC4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		280D085F1CC72F660034CAC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		280D08611CC72F660034CAC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		280D08641CC72F660034CAC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		280D08661CC72F660034CAC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		280D086B1CC72F660034CAC4 /* anySignPluginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = anySignPluginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		280D086F1CC72F660034CAC4 /* anySignPluginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = anySignPluginTests.swift; sourceTree = "<group>"; };
+		280D08711CC72F660034CAC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		280D08541CC72F660034CAC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		280D08681CC72F660034CAC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		280D084E1CC72F660034CAC4 = {
+			isa = PBXGroup;
+			children = (
+				280D08591CC72F660034CAC4 /* anySignPlugin */,
+				280D086E1CC72F660034CAC4 /* anySignPluginTests */,
+				280D08581CC72F660034CAC4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		280D08581CC72F660034CAC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				280D08571CC72F660034CAC4 /* anySignPlugin.app */,
+				280D086B1CC72F660034CAC4 /* anySignPluginTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		280D08591CC72F660034CAC4 /* anySignPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				280D085A1CC72F660034CAC4 /* AppDelegate.swift */,
+				280D085C1CC72F660034CAC4 /* ViewController.swift */,
+				280D085E1CC72F660034CAC4 /* Main.storyboard */,
+				280D08611CC72F660034CAC4 /* Assets.xcassets */,
+				280D08631CC72F660034CAC4 /* LaunchScreen.storyboard */,
+				280D08661CC72F660034CAC4 /* Info.plist */,
+			);
+			path = anySignPlugin;
+			sourceTree = "<group>";
+		};
+		280D086E1CC72F660034CAC4 /* anySignPluginTests */ = {
+			isa = PBXGroup;
+			children = (
+				280D086F1CC72F660034CAC4 /* anySignPluginTests.swift */,
+				280D08711CC72F660034CAC4 /* Info.plist */,
+			);
+			path = anySignPluginTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		280D08561CC72F660034CAC4 /* anySignPlugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 280D08741CC72F660034CAC4 /* Build configuration list for PBXNativeTarget "anySignPlugin" */;
+			buildPhases = (
+				280D08531CC72F660034CAC4 /* Sources */,
+				280D08541CC72F660034CAC4 /* Frameworks */,
+				280D08551CC72F660034CAC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = anySignPlugin;
+			productName = anySignPlugin;
+			productReference = 280D08571CC72F660034CAC4 /* anySignPlugin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		280D086A1CC72F660034CAC4 /* anySignPluginTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 280D08771CC72F660034CAC4 /* Build configuration list for PBXNativeTarget "anySignPluginTests" */;
+			buildPhases = (
+				280D08671CC72F660034CAC4 /* Sources */,
+				280D08681CC72F660034CAC4 /* Frameworks */,
+				280D08691CC72F660034CAC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				280D086D1CC72F660034CAC4 /* PBXTargetDependency */,
+			);
+			name = anySignPluginTests;
+			productName = anySignPluginTests;
+			productReference = 280D086B1CC72F660034CAC4 /* anySignPluginTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		280D084F1CC72F660034CAC4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = YSdang;
+				TargetAttributes = {
+					280D08561CC72F660034CAC4 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					280D086A1CC72F660034CAC4 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 280D08561CC72F660034CAC4;
+					};
+				};
+			};
+			buildConfigurationList = 280D08521CC72F660034CAC4 /* Build configuration list for PBXProject "anySignPlugin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 280D084E1CC72F660034CAC4;
+			productRefGroup = 280D08581CC72F660034CAC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				280D08561CC72F660034CAC4 /* anySignPlugin */,
+				280D086A1CC72F660034CAC4 /* anySignPluginTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		280D08551CC72F660034CAC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				280D08651CC72F660034CAC4 /* LaunchScreen.storyboard in Resources */,
+				280D08621CC72F660034CAC4 /* Assets.xcassets in Resources */,
+				280D08601CC72F660034CAC4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		280D08691CC72F660034CAC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		280D08531CC72F660034CAC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				280D085D1CC72F660034CAC4 /* ViewController.swift in Sources */,
+				280D085B1CC72F660034CAC4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		280D08671CC72F660034CAC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				280D08701CC72F660034CAC4 /* anySignPluginTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		280D086D1CC72F660034CAC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 280D08561CC72F660034CAC4 /* anySignPlugin */;
+			targetProxy = 280D086C1CC72F660034CAC4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		280D085E1CC72F660034CAC4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				280D085F1CC72F660034CAC4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		280D08631CC72F660034CAC4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				280D08641CC72F660034CAC4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		280D08721CC72F660034CAC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		280D08731CC72F660034CAC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		280D08751CC72F660034CAC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = anySignPlugin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = top.YSdang.anySignPlugin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		280D08761CC72F660034CAC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = anySignPlugin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = top.YSdang.anySignPlugin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		280D08781CC72F660034CAC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = anySignPluginTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = top.YSdang.anySignPluginTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/anySignPlugin.app/anySignPlugin";
+			};
+			name = Debug;
+		};
+		280D08791CC72F660034CAC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = anySignPluginTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = top.YSdang.anySignPluginTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/anySignPlugin.app/anySignPlugin";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		280D08521CC72F660034CAC4 /* Build configuration list for PBXProject "anySignPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				280D08721CC72F660034CAC4 /* Debug */,
+				280D08731CC72F660034CAC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		280D08741CC72F660034CAC4 /* Build configuration list for PBXNativeTarget "anySignPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				280D08751CC72F660034CAC4 /* Debug */,
+				280D08761CC72F660034CAC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		280D08771CC72F660034CAC4 /* Build configuration list for PBXNativeTarget "anySignPluginTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				280D08781CC72F660034CAC4 /* Debug */,
+				280D08791CC72F660034CAC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 280D084F1CC72F660034CAC4 /* Project object */;
+}
