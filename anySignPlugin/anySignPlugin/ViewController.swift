@@ -8,18 +8,67 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController,
+                      UIImagePickerControllerDelegate,
+                      UINavigationControllerDelegate{
 
+    
+    @IBOutlet weak var photoView: UIImageView!
+    
+    @IBOutlet weak var height: NSLayoutConstraint!
+    
+    @IBAction func takePhoto(sender: UIButton) {
+        
+        let junk = UIImagePickerController()
+        
+        let sourceType = UIImagePickerControllerSourceType.Camera
+        
+        if (UIImagePickerController.isSourceTypeAvailable(sourceType)) {
+        
+            junk.sourceType = sourceType
+            
+        } else {
+        
+//            let a = UIAlertController.init(title: "Stop!", message: "NO camera", preferredStyle: )
+          
+//            a.show
+        
+        }
+        
+        junk.delegate = self
+        
+        self.presentViewController(junk, animated: true, completion: nil)
+    
+    }
+    
     override func viewDidLoad() {
+        
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let screenW:CGFloat = UIScreen.mainScreen().bounds.width
+        
+        self.height.constant = screenW * 320 / 240
+    
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+
+    func imagePickerController(picker: UIImagePickerController, didFinishPickingMediaWithInfo info:[String : AnyObject]) {
+        
+        let image: UIImage = info[UIImagePickerControllerOriginalImage] as! UIImage
+        
+        self.photoView.image = image
+        
+        self.photoView.frame.size = image.size
+        
+        picker.dismissViewControllerAnimated(true, completion: nil)
+        
     }
 
-
+    func imagePickerControllerDidCancel(picker: UIImagePickerController) {
+        
+        picker.dismissViewControllerAnimated(true, completion: nil)
+    
+    }
 }
+
 
